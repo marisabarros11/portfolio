@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,800&display=swap" rel="stylesheet">
+    <title>Marisa Barros | Tech</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul class="menu" >
+                    <li class="menu-link"><a href="#">Marisa Barros</a></li>
+                    <li class="menu-link"><a href="#">Histórico</a></li>
+                    <li class="menu-link"><a href="#">Portfólio</a></li>
+                    <li class="menu-link"><a href="#">Conteúdo</a></li>
+                </ul>
+            </div>
+            <div class="botoes">
+                    <div>
+                        <input type="checkbox" class="checkbox" id="chk"/>
+                        <label class="label" for="chk">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="bola"></div>
+                        </label>
+                    </div>            
+                <!--
+                <button id="idioma">
+                    
+                </button>
+                -->
+            </div>
+        </nav>
+    </header><!--menu-->
+    
+    <section class="home">
+        <div class="apresentacao">
+            <h4>Olá, pessoal! Meu nome é</h4>
+    
+            <h1>Marisa Barros</h1>
+            <p>Sou Professora, Desenvolvedora Front-End e Criadora de Conteúdo. Amante de gatos e café!</p> 
+            <div class="btn-social">
+                <a href="#"><button><i class="bi bi-envelope-heart-fill"></i></button></a>
+                <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                <a href="#"><button><i class="bi bi-github"></i></button></a>
+                <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+            </div>
+        </div><!--texto apresentação-->
+        <div class="foto">
+            <img id="foto-tamanho" src="./imagens/foto.png" alt="foto">
+        </div><!--foto-->
+    </section><!--home-->
+
+    <section class="historico">
+        <div class="interface-historico">
+            <div class="titulo"><h4>Um breve Histórico</h4></div>
+            <div class="informacoes">
+                <div class="trabalhos">
+                    <span>Trabalhei em</span>
+                    <p>Strati (1 Ano) <br> FFLCH USP (2 Anos)</p>
+                </div>
+                <div class="funcoes">
+                    <span>Minhas funções eram</span>
+                    <p>Analista de Sistemas Jr,<br>Estagiária</p>
+                </div>
+                <div class="cidade">
+                    <span>Moro em</span>
+                    <p>São Paulo<br><br></p>
+                </div>
+            </div>
+        </div>
+    </section><!--sobre-->
+
+    <section class="portfolio">
+        <div class="interface">
+            <h4 class="titulo">Portfólio</h4>
+            <div class="imagens">
+                <div class="img-port" style="background-image: url(./imagens/LojaCat.png);">
+                    <div class="overlay"> LojaCat</div>
+                </div>
+                <div class="img-port" style="background-image: url(./imagens/site-meowisa.png);">
+                    <div class="overlay">Site Meowisa</div>
+                </div>
+                <div class="img-port">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div><!--interface-->
+    </section><!--portifolio-->
+
+    <script src="./js/script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>
